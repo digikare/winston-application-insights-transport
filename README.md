@@ -1,2 +1,2 @@
-# winston-application-insight-transport
-Application insight transport for winston
+# winston-application-insights-transport
+Application insights transport for winston
