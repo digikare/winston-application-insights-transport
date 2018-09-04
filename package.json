@@ -1,0 +1,26 @@
+{
+  "name": "winston-application-insight-transport",
+  "version": "0.0.1",
+  "description": "Application insight transport for winston",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digikare/winston-application-insight-transport.git"
+  },
+  "keywords": [
+    "winston",
+    "azure",
+    "applicationinsight",
+    "ai",
+    "microsoft"
+  ],
+  "author": "Tieu-Philippe KHIM <pkhim@digikare.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/digikare/winston-application-insight-transport/issues"
+  },
+  "homepage": "https://github.com/digikare/winston-application-insight-transport#readme"
+}
