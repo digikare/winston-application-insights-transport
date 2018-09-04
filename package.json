@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/digikare/winston-application-insight-transport.git"
+    "url": "git+https://github.com/digikare/winston-application-insights-transport.git"
   },
   "keywords": [
     "winston",
@@ -20,7 +20,11 @@
   "author": "Tieu-Philippe KHIM <pkhim@digikare.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/digikare/winston-application-insight-transport/issues"
+    "url": "https://github.com/digikare/winston-application-insights-transport/issues"
   },
-  "homepage": "https://github.com/digikare/winston-application-insight-transport#readme"
+  "homepage": "https://github.com/digikare/winston-application-insights-transport#readme",
+  "dependencies": {
+    "applicationinsights": "^1.0.4",
+    "winston-transport": "^4.2.0"
+  }
 }
