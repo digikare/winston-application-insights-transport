@@ -1,0 +1,45 @@
+{
+  "name": "winston-application-insights-transport",
+  "version": "0.0.1",
+  "description": "Application insights transport for winston",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run build",
+    "build:compile": "tsc --project ./",
+    "build": "npm run build:compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digikare/winston-application-insights-transport.git"
+  },
+  "keywords": [
+    "winston",
+    "azure",
+    "applicationinsights",
+    "ai",
+    "microsoft"
+  ],
+  "author": "Tieu-Philippe KHIM <pkhim@digikare.com>",
+  "contributors": [
+    {
+      "name": "Tieu-Philippe KHIM",
+      "email": "pkhim@digikare.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/digikare/winston-application-insights-transport/issues"
+  },
+  "homepage": "https://github.com/digikare/winston-application-insights-transport#readme",
+  "dependencies": {
+    "applicationinsights": "^1.0.4",
+    "winston-transport": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.9.4",
+    "logform": "^1.9.1",
+    "typescript": "^3.0.3"
+  }
+}
