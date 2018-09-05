@@ -1,7 +1,7 @@
 {
-  "name": "winston-application-insight-transport",
+  "name": "winston-application-insights-transport",
   "version": "0.0.1",
-  "description": "Application insight transport for winston",
+  "description": "Application insights transport for winston",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
@@ -17,7 +17,7 @@
   "keywords": [
     "winston",
     "azure",
-    "applicationinsight",
+    "applicationinsights",
     "ai",
     "microsoft"
   ],
@@ -39,6 +39,7 @@
   },
   "devDependencies": {
     "@types/node": "^10.9.4",
+    "logform": "^1.9.1",
     "typescript": "^3.0.3"
   }
 }
