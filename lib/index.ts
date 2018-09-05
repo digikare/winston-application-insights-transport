@@ -43,7 +43,7 @@ function getLevelAi(winstonLevel: string): SeverityLevel {
   return winstonLevel in winstonLevelsMap ? winstonLevelsMap[winstonLevel] : SeverityLevel.Information;
 }
 
-export class ApplicationInsightTransport extends Transport {
+export class ApplicationInsightsTransport extends Transport {
 
   private _client: TelemetryClient;
   private _silent: boolean;
